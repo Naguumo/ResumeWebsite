@@ -1,5 +1,13 @@
 ### Site Hosted At [ishaan.rf.gd](ishaan1.rf.gd)
 
+* [Summary](#summary)
+* [Education](#education)
+* [Technical Skills](#technicalskills)
+* [Soft Skills](#softskills)
+* [Accomplishments](#accomplishments)
+* [Languages](#languages)
+* [Experience](#experience)
+
 # Ishaan Bharal
 ### ishbharal@gmail.com
 ### 732-666-7144										
