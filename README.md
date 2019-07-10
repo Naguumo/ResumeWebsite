@@ -2,10 +2,10 @@
 
 * [Summary](#summary)
 * [Education](#education)
-* [Technical Skills](#technicalskills)
-* [Soft Skills](#softskills)
+* [Technical Skills](#technical-skills)
+* [Soft Skills](#soft-skills)
 * [Accomplishments](#accomplishments)
-* [Languages](#languages)
+* [Languages](#languages-1)
 * [Experience](#experience)
 
 # Ishaan Bharal
