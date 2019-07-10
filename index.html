@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+
+        <!-- Meta Information -->
+        <meta charset="utf-8">
+        <title>Ishaan Bharal</title>
+        <meta name="description" content="A Place To Show Off What I've Done">
+        <meta name="author" content="Ishaan Bharal">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- Page Icon -->
+        <link rel="icon" href="img/favicon.png">
+
+        <!-- Font -->
+        <link href="https://fonts.googleapis.com/css?family=Press+Start+2P&display=block&effect=shadow-multiple|3d" rel="stylesheet">
+        
+        <!-- Libraries -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        
+        <!-- Personal Stylesheet -->
+        <link rel="stylesheet" href="css/main.css">
+
+        <!-- Personal JavaScript -->
+        <script src="js/button.js"></script>
+
+    </head>
+    <body>
+        <div class="container">
+
+            <!-- Displays Name -->
+            <div class="row frame">
+                <h1 class="font-effect-3d font-effect-shadow-multiple flicker">Ishaan&NewLine;Bharal</h1>
+            </div>
+
+            <div class="row">
+
+                <!-- Profile Picture -->
+                <div class="col-md frame">
+                    <img style="max-width: 100%; border-radius: 5px;" src="img/grad.png">
+                </div>
+
+                <!-- Contact Information -->
+                <div class="col-md frame">
+                    <h4 class="font-effect-3d mt-5">732-666-7144</h4>
+                    <h4 class="font-effect-3d mt-5">Austin, TX 78641</h4>
+                    <div class="row mt-5">
+                        <a class="font-effect-3d ml-auto" href="mailto:ishbharal@gmail.com"><img class="contact-picture" src="img/mail.png"></a>
+                        <a class="font-effect-3d mx-4" href="https://github.com/Naguumo"><img class="contact-picture" src="img/github.png"></a>
+                        <a class="font-effect-3d mr-auto" href="https://www.linkedin.com/in/ishaan-bharal-7ab890132/"><img class="contact-picture" src="img/linkedin.png"></a>
+                    </div>
+                </div>
+            </div>
+
+            
+
+            <!-- Resume Summary -->
+            <div class="row frame">
+                <div class="col">
+                    <button class="font-effect-3d" onclick="display('d_summary')">Summary</button>
+                    <div id="d_summary" class="slider closed">
+                        <p class="font-effect-3d">
+                            Focused and innovative Computer Science Professional with 
+                            advanced knowledge of Object Oriented Design especially in 
+                            regards to Java and Python. Looking to cooperate with 
+                            coworkers in a small team environment and use both my 
+                            programming skills as well as experience in a team environment 
+                            to contribute towards the success of a project.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Education -->
+            <div class="row frame">        
+                <div class="col">    
+                    <button class="font-effect-3d" onclick="display('d_education')">Education</button>
+                    <div id="d_education" class="slider closed">
+                        <p class="font-effect-3d">
+                            <b>The University of Texas at Dallas</b>, 
+                            B.S. in Computer Science
+                            Anticipated May 2020
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Technical Skills -->
+            <div class="row frame">
+                <div class="col">
+                    <button class="font-effect-3d" onclick="display('d_technical')">Technical Skills</button>
+                    <div id="d_technical" class="slider closed">
+                        <ul class="font-effect-3d">
+                            <li>
+                                <p>
+                                    <b>Languages: </b>
+                                </p>
+                                <p>
+                                    Java, C/C++/C#, MIPS, Python, JavaScript, R, SQL
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <b>DBMS: </b>
+                                </p>
+                                <p>
+                                    Relational (MySQL, PostgreSQL, SQLite), NoSQL (MongoDB)
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <b>Web Technologies: </b>
+                                </p>
+                                <p>
+                                    HTML5, CSS, XML, JSON, SASS
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <b>Operating Systems: </b>
+                                </p>
+                                <p>
+                                    Windows 7/8/10, Android, OSX, UNIX
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <b>Tools: </b>
+                                </p>
+                                <p>
+                                    Photoshop, Visual Studio Code, IDEA, PyCharm, Git
+                                </p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Soft Skills -->
+            <div class="row frame">
+                <div class="col">
+                    <button class="font-effect-3d" onclick="display('d_soft')">Soft Skills</button>
+                    <div id="d_soft" class="slider closed">
+                        <ul class="font-effect-3d">
+                            <li>Communication</li>
+                            <li>Problem Solving</li>
+                            <li>Time Management</li>
+                            <li>Decision Making</li>
+                            <li>Code Optimization</li>
+                            <li>Creative Thinking</li>
+                            <li>Customer Service</li>
+                            <li>Team Player</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Accomplishments -->
+            <div class="row frame">
+                <div class="col">
+                    <button class="font-effect-3d" onclick="display('d_accomplishments')">Accomplishments</button>
+                    <div id="d_accomplishments" class="slider closed">
+                        <ul class="font-effect-3d">
+                            <li>JavaScript Developer Certification</li>
+                            <li>Python Developer Certification</li>
+                            <li>John Hopkins Center for Talented Youth Participant</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Languages -->
+            <div class="row frame">
+                <div class="col">
+                    <button class="font-effect-3d" onclick="display('d_languages')">Languages</button>
+                    <div id="d_languages" class="slider closed">
+                        <ul class="font-effect-3d">
+                            <li>English (Native Understanding), Written and Oral Fluency</li>
+                            <li>Hindi (Native Understanding), Oral Fluency</li>
+                            <li>Japanese (Beginner’s Understanding), Oral Fluency</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Experience -->
+            <div class="row frame">
+                <div class="col">
+                    <button class="font-effect-3d" onclick="display('d_experience')">Experience</button>
+                    <div id="d_experience" class="slider closed">
+                        <ul class="font-effect-3d pl-0">
+                            <li>
+                                <b>Aleph Technologies, Full Stack Developer/Team Lead, 2019</b>
+                                <ul>
+                                    <li>-Developed an Event Management System to allow registering of Instructors, Participants, and Venues and connect Users with each other at Events</li>
+                                    <li>-Utilized PostgreSQL as well as Django in the development stack</li>
+                                    <li>-Cooperated in a small team of 5 using SCRUM Methodology</li>
+                                </ul>                                    
+                            </li>
+                            <br>
+                            <li>
+                                <b>TxBDC, Student Developer, 2018</b>
+                                <ul>
+                                    <li>-Re-engineered the games Flappy Bird and Tetris to interact with a specially made controller</li>
+                                    <li>-Developed games that could be played by people with spinal injuries</li>
+                                    <li>-Worked together with both patients and other students to test the product</li>
+                                </ul>
+                            </li>
+                            <br>
+                            <li>
+                                <b>HackUTD, Participant, 2018</b>
+                                <ul>
+                                    <li>-Participated in a development challenge and attempted to solve the problem with a group</li>
+                                    <li>-Presented rough implementation to judges</li>
+                                    <li>-Programmed using Java in a team environment</li>
+                                </ul>
+                            </li>
+                            <br>
+                            <li>
+                                <b>Java Tutor, Tutor, 2017 to 2018</b>
+                                <ul>
+                                    <li>-Taught students how to program in Java to pass a university class</li>
+                                    <li>-Was responsible for 5 students passing classes with A grades</li>
+                                </ul>
+                            </li>
+                            <br>
+                            <li>
+                                <b>Marco’s Pizza, Delivery Driver, 2016 to 2017</b>
+                                <ul>
+                                    <li>-Problem solved issues with customers and communicated solutions to them</li>
+                                    <li>-Delivered orders to customers and received commendation for fast delivery speed</li>
+                                </ul>
+                            </li>
+                            <br>
+                            <li>
+                                <b>FTC (First Tech Challenge) Robotics Competition, Team Member/Judge, 2013 to 2015</b>
+                                <ul>
+                                    <li>-Designed and Implemented robots as well as the software they ran on to compete in global challenges</li>
+                                    <li>-Led the team to the World’s Championship twice by bringing the group together to coordinate our strengths</li>
+                                    <li>-Programmed movement mechanisms using C++</li>
+                                </ul>
+                            </li>
+                            <br>
+                            <li>
+                                <b>Adventure.Land, Designer/Developer, 2015 to 2016</b>
+                                <ul>
+                                    <li>-Brainstormed gameplay ideas and contributed code fragments to a browser game with the intent to teach others how to code</li>
+                                    <li>-Responsible for the implementation of graphical functions in game as well as providing tutorial files for Users</li>
+                                    <li>-Contributed to the development of a project with over 200 concurrent users</li>
+                                </ul>
+                            </li>
+                            <br>
+                            <li>
+                                <b>Minecraft Mod (IndustrialCraft2 Combined Armors), Developer, 2012 to 2014</b>
+                                <ul>
+                                    <li>-Worked with two likeminded peers in order to create desired functionalities in a Java environment</li>
+                                    <li>-Designed, Developed, and Tested mods for the game Minecraft</li>
+                                    <li>-Currently has over 3000 downloads</li>
+                                </ul>
+                            </li>
+                            <br>
+                            <li>
+                                <b>Odyssey of The Mind, Team Member, 2010 to 2012</b>
+                                <ul>
+                                    <li>-Responsible for final performance and lead team to World Finals</li>
+                                    <li>-Contributed creative ideas to solve problems and created presentations</li>
+                                    <li>-Organized meetings to work on project and designed large portions of the final implementation</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Memes -->
+            <div style="margin-top: 10000px">
+                <h3>That's the end of my resume, there's nothing more!</h3>
+            </div>
+            <div style="margin-top: 10000px">
+                <h3>Why are you still scrolling? Theres nothing here!</h3>
+            </div>
+            <div style="margin-top: 10000px">
+                <h3>Look, STOP! If you keep scrolling something bad will happen!</h3>
+            </div>
+            <div style="margin-top: 10000px">
+                <h3>IM WARNING YOU!</h3>
+            </div>
+
+            <!-- Pong -->
+            <div style="margin-top: 10000px">
+                <h3>Fine you got me, I had a PONG game hidden away. Wanna play now that you're here?</h3>
+                <canvas id="canvas"></canvas>
+                <script src="js/pong.js"></script>
+            </div>
+        </div>
+    </body>
+</html>

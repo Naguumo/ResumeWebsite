@@ -1,0 +1,60 @@
+*:hover {
+  color: #00ff00;
+}
+body {
+  text-align: center;
+  font-family: 'Press Start 2P', sans-serif;
+  color: #aaaaaa;
+  padding: 5% 0%;
+  background-color: #222222;
+}
+div {
+  margin: 2em;
+}
+h1 {
+  font-size: 7rem;
+}
+button {
+  font-family: 'Press Start 2P', sans-serif;
+  font-size: 2rem;
+  color: #aaaaaa;
+  background: none;
+  border: none;
+  width: 100%;
+  padding: 2rem;
+}
+ul {
+  list-style-type: none;
+}
+.frame {
+  padding: 1rem;
+  border: 5px solid #14a5ff;
+  border-radius: 20px;
+  box-shadow: 0 0 1rem #22cef9, 0 0 3rem #22cef9, 0 0 5rem #22cef9, 0 0 10rem #22cef9, inset 0 0 1rem #22cef9, inset 0 0 3rem #22cef9, inset 0 0 5rem #22cef9, inset 0 0 10rem #22cef9;
+}
+.contact-picture {
+  max-width: 8rem;
+}
+.slider {
+  overflow-y: hidden;
+  max-height: 500rem;
+  /* approximate max height */
+  transition: all 0.8s ease-in-out;
+}
+.slider.closed {
+  max-height: 0;
+}
+@keyframes flickerAnimation {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.flicker {
+  animation: flickerAnimation 5s infinite;
+}
