@@ -1,4 +1,4 @@
-### Site Hosted At [ishaan.rf.gd](ishaan1.rf.gd)
+### Site Hosted At [ishaanbharal.me](ishaanbharal.me)
 
 * [Summary](#summary)
 * [Education](#education)
